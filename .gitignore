@@ -1,0 +1,37 @@
+# 前任聊天记录/语音样本（隐私数据）
+exes/*/knowledge/chats/
+exes/*/knowledge/voice/sample*
+exes/*/knowledge/photos/
+
+# 版本存档
+exes/*/versions/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Whisper 模型缓存
+models/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 解密数据库（敏感）
+decrypted/
+*.db
+
+# 临时文件
+*.tmp
+*.wav
+output.mp3
